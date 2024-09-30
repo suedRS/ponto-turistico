@@ -3,5 +3,74 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto', 'sans-serif';
+    margin: 10px 20px ;
+    
 }
 
+body{
+    background-color: rgb(25, 25, 25);
+    color:white;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 98%;
+    border-radius: 25px;
+}
+
+img{
+    width: 1200px;
+    height: 600px;
+}
+
+header{
+    background-color: black;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    background-color: black;
+    border: 1px solid yellow;
+    border-radius: 25px;
+}
+
+.caixa{
+    background-color: black;
+    border: 1px solid yellow;
+    border-radius: 25px;
+}
+
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 50px;    
+}
+
+
+a{
+    margin: -10px;
+}
+
+
+footer a ion-icon{
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+}
+
+footer a ion-icon:hover{
+    background-color:white;
+    color: black;
+    transition: .9s;
+}
